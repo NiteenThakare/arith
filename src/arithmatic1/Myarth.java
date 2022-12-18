@@ -6,8 +6,6 @@ public class Myarth {
 
 	public static void main(String[] args) 
 	{
-		
-		// TODO Auto-generated method stub
 		int a,b;
 		Myarth c= new Myarth();
 		int choice;
@@ -17,7 +15,7 @@ public class Myarth {
 		//choice=4;
 		//a=560;
 		//b=8;
-		switch(choice)
+		switch(choice)// inside switch always integer value is required
 		{
 		case 1:System.out.println("Addition of two numbers:");
 		c.addition(a,b);
@@ -41,25 +39,25 @@ public class Myarth {
 
 
 }
-	public void addition(int a,int b)
+	public void addition(int a,int b)//addition 
 	{
 		int sum;
 		sum=a+b;
 		System.out.println("Ans= "+sum);
 	}
-	public void substraction(int a,int b)
+	public void substraction(int a,int b)//substraction
 	{
 		int sub;
 		sub=a-b;
 		System.out.println("Ans= "+sub);
 	}
-	public void multiplication(int a,int b)
+	public void multiplication(int a,int b)//multiplication
 	{
 		int mult;
 		mult=a*b;
 		System.out.println("Ans= "+mult);
 	}
-	public void division(int a,int b)
+	public void division(int a,int b)//division
 	{
 		int div;
 		div=a/b;
